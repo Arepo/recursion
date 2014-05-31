@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+A couple of tiny programs to try out recursion in Ruby methods - one sums an array (without using inject), one checks if an array is a palindrome (without using reverse). Feeling very pleased with the latter.
+=======
+recursion
+=========
+
+Trying out recursion in Ruby methods
+>>>>>>> 6c4bffa7aba38b0f0d08abcd059df4b94593be45

@@ -5,6 +5,6 @@
 
 def palindrome?(array)
 	return true if array.length <= 1
-	return false if array.shift != array.pop
+	return false unless array.shift == array.pop
 	palindrome?(array)
 end
