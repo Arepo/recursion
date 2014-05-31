@@ -25,6 +25,3 @@ end
 
 # it "computes the sum of an array with many elements" do
 # end
-# Palindrome
-
-# Write a recursive function that determines whether an array is a palindrome. Use the same approach as the previous exercise (tests, base cases).
