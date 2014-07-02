@@ -4,7 +4,8 @@
 # Preferably without using the reverse method.
 
 def palindrome?(array)
-	return true if array.length <= 1
-	return false unless array.shift == array.pop
-	palindrome?(array)
+  doomed_array = array.dup
+	return true if doomed_array.length <= 1
+	return false unless doomed_array.shift == doomed_array.pop
+	palindrome?(doomed_array)
 end
